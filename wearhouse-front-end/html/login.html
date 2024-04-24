@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../script/connection.js"></script>
+    <script src="../script/jquery.js"></script>
+    <script src="../script/login.js"></script>
+    <script src="../script/statusUser.js" defer></script>
+    <title>Warehouse - login</title>
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="header">
+            <a href="./home.html" id="warehouse">WareHouse</a>
+            <div class="kiri">
+                <a href="./category.html">Category</a>
+                <a href="./aboutus.html">About Us</a>
+            </div>
+        </div>
+        <div class="logreg">
+            <input type="checkbox" id="usercheckbox">
+            <p id="UserName">Admin</p>
+            <label for="usercheckbox" id="dropdownBtn">▼</label>
+            <button id="btnLogOut" onclick="LogOut()">Logout</button>
+            <div class="loginReq">
+                <a href="./login.html">login</a>
+                <a href="./register.html">register</a>
+            </div>
+        </div>
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" id="burgerbtn">&equiv;</label>
+        <!-- navbar responsive -->
+        <div class="respons">
+            <div class="head">
+                <a href="./category.html">Category</a>
+                <a href="./aboutus.html">About Us</a>
+            </div>
+            <div class="logres">
+                <a href="./login.html">login</a>
+                <a href="./register.html">register</a>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="logincontainer">
+        <div class="boxshadow">
+            <div class="boxlogin">
+                <div class="title">
+                    <p>Login</p>
+                </div>
+                <div class="email">
+                    <label for="username" id="posisi">Email Address</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="pass">
+                    <label for="password" id="posisi1">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="posisicheckbox">
+                    <label for="posisicheckbox" id="hehe">Remeber Me</label>
+                </div>
+                <div class="btnlogin">
+                    <button id="loginbtn" onclick="doLogin()">Login</button>
+                    <a href="#">Forgot Your Password?</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="image">
+            <img src="../assets/bxl-facebook.svg" alt="">
+            <img src="../assets/bxl-instagram.svg" alt="">
+            <img src="../assets/bxl-twitter.svg" alt="">
+        </div>
+        <div class="text">
+            <p>Copyright @ 2021 jenggo. All Right Reversed</p>
+        </div>
+    </footer>
+</body>
+</html>

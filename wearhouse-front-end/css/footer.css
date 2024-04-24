@@ -1,0 +1,18 @@
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+
+.image img{
+    filter: invert(1);
+    margin: 5px;
+}
+
+.text{
+    font-size: 10px;
+}

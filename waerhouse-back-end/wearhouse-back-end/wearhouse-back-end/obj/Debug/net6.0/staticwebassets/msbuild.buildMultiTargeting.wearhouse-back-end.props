@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\wearhouse-back-end.props" />
+</Project>

@@ -1,0 +1,108 @@
+.logincontainer{
+    padding: 90px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 665px;
+}
+
+.boxshadow{
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 9px #888888;
+    width: 700px;
+    height: 400px;
+}
+
+.boxlogin{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    border-bottom: 1px solid;
+    padding: 10px;
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.name{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+
+.emailadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 95px;
+}
+
+.passreg{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 55px;
+}
+
+.confirmpass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 125px;
+}
+
+#posisi{
+    margin: 10px;
+}
+
+#posisi1{
+    margin: 10px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+}
+
+#hehe{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.btnlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 46px;
+    padding: 20px;
+}
+
+#loginbtn{
+    background-color: lightskyblue;
+    border-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.btnlogin a{
+    font-size: 15px;
+}
